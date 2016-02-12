@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="arrow_width">34dp</dimen>
+    <dimen name="arrow_height">27dp</dimen>
+    
+    <dimen name="arrow_to_text_space">32dp</dimen>
+    
+    
+
+</resources>

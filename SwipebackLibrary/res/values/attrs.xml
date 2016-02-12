@@ -1,0 +1,55 @@
+<resources>
+
+    <!-- Reference to a style for the menu drawer. -->
+    <attr name="swipeBackStyle" format="reference" />
+
+    <!-- Styleables used for styling the menu drawer. -->
+    <declare-styleable name="SwipeBack">
+
+        <!-- Drawable to use for the background of the content. -->
+        <attr name="sbContentBackground" format="reference" />
+
+        <!-- Drawable to use for the background of the swipe back view. -->
+        <attr name="sbSwipeBackBackground" format="reference" />
+
+        <!-- The size of the swipe back view. -->
+        <attr name="sbSwipeBackSize" format="dimension" />
+
+        <!-- Defines whether there will be a divider drawn between content and the swipe back view. Default is true. -->
+        <attr name="sbDividerEnabled" format="boolean" />
+
+        <!-- The size of the divider. Default is 6dp -->
+        <attr name="sbDividerSize" format="dimension" />
+
+        <!-- The color of the divider as per default a shadow (gradient) drawable will be created. Default is #FF000000. -->
+        <attr name="sbDividerAsShadowColor" format="color" />
+
+        <!-- Drawable used as divider. -->
+        <attr name="sbDivider" format="reference" />
+
+        <!-- The touch bezel size. -->
+        <attr name="sbBezelSize" format="dimension" />
+
+
+        <!-- The maximum animation duration -->
+        <attr name="sbMaxAnimationDuration" format="integer" />
+
+
+        <!-- Whether an overlay should be drawn as the swipe back view  is opened and closed -->
+        <attr name="sbDrawOverlay" format="boolean" />
+        
+        <!-- The transformer that should be -->
+        <attr name="sbTransformer" format="string" />
+
+        <!-- The position of the drawer -->
+        <attr name="sbSwipeBackPosition" format="enum">
+            <enum name="left" value="0" />
+            <enum name="top" value="1" />
+            <enum name="right" value="2" />
+            <enum name="bottom" value="3" />
+            <enum name="start" value="4" />
+            <enum name="end" value="5" />
+        </attr>
+    </declare-styleable>
+
+</resources>

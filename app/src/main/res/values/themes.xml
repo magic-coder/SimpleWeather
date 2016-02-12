@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="bg_window">
+        <item>@drawable/bg_window_light</item>
+        <item>@drawable/bg_window_dark</item>
+    </array>
+
+    <array name="bg_toolbar">
+        <item>@drawable/bg_toolbar_light</item>
+        <item>@drawable/bg_toolbar_dark</item>
+    </array>
+
+    <array name="text_title">
+        <item>@style/LightTitleText</item>
+    </array>
+
+    <array name="text_body">
+        <item>@style/LightBodyText</item>
+    </array>
+
+    <array name="button_flat">
+        <item>@style/LightFlatButtonRippleStyle</item>
+    </array>
+
+    <array name="button_flat_color">
+        <item>@style/LightFlatColorButtonRippleStyle</item>
+    </array>
+
+    <array name="button_flat_wave">
+        <item>@style/LightFlatWaveButtonRippleStyle</item>
+    </array>
+
+    <array name="button_flat_wave_color">
+        <item>@style/LightFlatWaveColorButtonRippleStyle</item>
+    </array>
+
+    <array name="button_raise">
+        <item>@style/LightRaiseButtonRippleStyle</item>
+    </array>
+
+    <array name="button_raise_color">
+        <item>@style/LightRaiseColorButtonRippleStyle</item>
+    </array>
+
+    <array name="button_raise_wave">
+        <item>@style/LightRaiseWaveButtonRippleStyle</item>
+    </array>
+
+    <array name="button_raise_wave_color">
+        <item>@style/LightRaiseWaveColorButtonRippleStyle</item>
+    </array>
+
+    <array name="checkbox">
+        <item>@style/LightCheckBoxDrawable</item>
+    </array>
+
+    <array name="radio_button">
+        <item>@style/LightRadioButtonDrawable</item>
+    </array>
+
+    <array name="switches">
+        <item>@style/LightSwitch</item>
+    </array>
+
+    <array name="fab_icon">
+        <item>@style/LightFABIcon</item>
+    </array>
+
+    <array name="slider">
+        <item>@style/LightSlider</item>
+    </array>
+
+    <array name="slider_discrete">
+        <item>@style/LightSliderDiscrete</item>
+    </array>
+
+    <array name="spinner">
+        <item>@style/LightSpinner</item>
+    </array>
+
+    <array name="spinner_no_arrow">
+        <item>@style/LightSpinnerNoArrow</item>
+    </array>
+
+    <array name="spinner_item">
+        <item>@style/LightSpinnerItem</item>
+    </array>
+
+    <array name="tab_indicator">
+        <item>@style/LightTabPageIndicator</item>
+    </array>
+
+    <array name="edittext">
+        <item>@style/LightEditText</item>
+    </array>
+
+    <array name="edittext_contact">
+        <item>@style/LightContactEditText</item>
+    </array>
+
+    <array name="edittext_no_divider">
+        <item>@style/LightNoDividerEditText</item>
+    </array>
+
+    <array name="pv_circular">
+        <item>@style/LightCircularProgressView</item>
+    </array>
+
+</resources>

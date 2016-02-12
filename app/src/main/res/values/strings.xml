@@ -1,0 +1,40 @@
+<resources>
+
+    <string name="app_name">简约天气</string>
+    <string name="test_city">北京</string>
+    <string name="test_release">上午 8:30 发布</string>
+    <string name="test_weather">晴</string>
+    <string name="test_today_temp">↑22ºC\t\t↓13ºC</string>
+    <string name="test_now_temp">18ºC</string>
+    <string name="test_aqi">288</string>
+    <string name="test_quality">重度污染</string>
+    <string name="test_next_three">下午7时</string>
+    <string name="test_next_six">下午10时</string>
+    <string name="test_next_nine">上午1时</string>
+    <string name="test_next_twelve">上午4时</string>
+    <string name="test_next_fifteen">上午7时</string>
+    <string name="aqi">空气质量指数</string>
+    <string name="forecast">预报</string>
+    <string name="today">今天</string>
+    <string name="information">详细信息</string>
+    <string name="felt_air_temp">体感温度</string>
+    <string name="humidity">湿度</string>
+    <string name="wind">风向风力</string>
+    <string name="uv_index">紫外线指数</string>
+    <string name="dressing_index">穿衣指数</string>
+    <string name="default_text">_ _</string>
+    <string name="title_city">城市切换</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="update_prompt">请选择时间间隔</string>
+    <string name="about">简约天气 alpha v1.01\n\t\t2016年1月25日第一版发布\n\t2016年1月31日，修复偶尔不能刷新的bug，增强解析JSON的异常处理</string>
+    <string-array name="update_interval">
+        <item>不更新</item>
+        <item>每半小时</item>
+        <item>每一小时</item>
+        <item>每两小时</item>
+        <item>每三小时</item>
+    </string-array>
+
+</resources>

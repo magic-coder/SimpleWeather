@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/aw_rl_frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:background="@color/colorPrimary"
+    tools:context="com.gl.drawertest.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+
+    <com.yalantis.phoenix.PullToRefreshView
+        android:id="@+id/aw_pull_to_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:id="@+id/aw_sv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <RelativeLayout
+                    android:id="@+id/aw_rl_city"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/aw_tv_city"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="@string/test_city"
+                        android:textColor="@color/weather_color" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@id/aw_tv_city"
+                        android:layout_alignTop="@id/aw_tv_city"
+                        android:layout_toRightOf="@id/aw_tv_city"
+                        android:padding="4dp"
+                        android:src="@drawable/arrow" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/aw_tv_release"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="16dp"
+                    android:text="@string/test_release"
+                    android:textColor="@color/weather_color"
+                    android:textSize="12sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/light_grey" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp">
+
+                    <ImageView
+                        android:id="@+id/aw_iv_now_weather"
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:src="@drawable/d999" />
+
+                    <TextView
+                        android:id="@+id/aw_tv_now_weather"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="4dp"
+                        android:text="@string/test_weather"
+                        android:textColor="@color/weather_color" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/aw_tv_today_temp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="@string/test_today_temp"
+                    android:textColor="@color/weather_color"
+                    android:textSize="12sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginTop="16dp">
+
+                    <TextView
+                        android:id="@+id/aw_tv_now_temp"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/test_now_temp"
+                        android:textColor="@color/weather_color"
+                        android:textSize="48sp" />
+
+                    <LinearLayout
+                        android:id="@+id/aw_ll_aqi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/wireframe_light"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text="@string/aqi"
+                            android:textColor="@color/weather_color" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp">
+
+                            <TextView
+                                android:id="@+id/aw_tv_aqi"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/default_text"
+                                android:textColor="@color/weather_color" />
+
+                            <TextView
+                                android:id="@+id/aw_tv_quality"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:ems="5"
+                                android:gravity="right"
+                                android:text="@string/default_text"
+                                android:textColor="@color/weather_color" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/wireframe_dark"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="4dp"
+                        android:text="@string/forecast"
+                        android:textColor="@color/title_color" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:background="@color/light_grey" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp">
+
+                        <TextView
+                            android:id="@+id/aw_tv_next_three"
+                            style="@style/TextViewStyle"
+                            android:textColor="@color/weather_color" />
+
+                        <TextView
+                            android:id="@+id/aw_tv_next_six"
+                            style="@style/TextViewStyle"
+                            android:textColor="@color/weather_color" />
+
+                        <TextView
+                            android:id="@+id/aw_tv_next_nine"
+                            style="@style/TextViewStyle"
+                            android:textColor="@color/weather_color" />
+
+                        <TextView
+                            android:id="@+id/aw_tv_next_twelve"
+                            style="@style/TextViewStyle"
+                            android:textColor="@color/weather_color" />
+
+                        <TextView
+                            android:id="@+id/aw_tv_next_fifteen"
+                            style="@style/TextViewStyle"
+                            android:textColor="@color/weather_color" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <FrameLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1">
+
+                            <ImageView
+                                android:id="@+id/aw_iv_next_three"
+                                style="@style/ImageViewStyle"
+                                android:layout_gravity="center"
+                                android:src="@drawable/d999" />
+
+                            <TextView
+                                android:id="@+id/aw_tv_next_three_pop"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:paddingBottom="3dp"
+                                android:paddingLeft="2dp"
+                                android:textColor="@color/pop_color"
+                                android:textSize="8sp" />
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1">
+
+                            <ImageView
+                                android:id="@+id/aw_iv_next_six"
+                                style="@style/ImageViewStyle"
+                                android:layout_gravity="center"
+                                android:src="@drawable/d999" />
+
+                            <TextView
+                                android:id="@+id/aw_tv_next_six_pop"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:paddingBottom="3dp"
+                                android:paddingLeft="2dp"
+                                android:textColor="@color/pop_color"
+                                android:textSize="8sp" />
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1">
+
+                            <ImageView
+                                android:id="@+id/aw_iv_next_nine"
+                                style="@style/ImageViewStyle"
+                                android:layout_gravity="center"
+                                android:src="@drawable/d999" />
+
+                            <TextView
+                                android:id="@+id/aw_tv_next_nine_pop"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:paddingBottom="3dp"
+                                android:paddingLeft="2dp"
+                                android:textColor="@color/pop_color"
+                                android:textSize="8sp" />
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1">
+
+                            <ImageView
+                                android:id="@+id/aw_iv_next_twelve"
+                                style="@style/ImageViewStyle"
+                                android:layout_gravity="center"
+                                android:src="@drawable/d999" />
+
+                            <TextView
+                                android:id="@+id/aw_tv_next_twelve_pop"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:paddingBottom="3dp"
+                                android:paddingLeft="2dp"
+                                android:textColor="@color/pop_color"
+                                android:textSize="8sp" />
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1">
+
+                            <ImageView
+                                android:id="@+id/aw_iv_next_fifteen"
+                                style="@style/ImageViewStyle"
+                                android:layout_gravity="center"
+                                android:src="@drawable/d999" />
+
+                            <TextView
+                                android:id="@+id/aw_tv_next_fifteen_pop"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:paddingBottom="3dp"
+                                android:paddingLeft="2dp"
+                                android:textColor="@color/pop_color"
+                                android:textSize="8sp" />
+                        </FrameLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginTop="2dp">
+
+                        <TextView
+                            android:id="@+id/aw_tv_next_three_temp"
+                            style="@style/TextViewStyle"
+                            android:textColor="@color/weather_color" />
+
+                        <TextView
+                            android:id="@+id/aw_tv_next_six_temp"
+                            style="@style/TextViewStyle"
+                            android:textColor="@color/weather_color" />
+
+                        <TextView
+                            android:id="@+id/aw_tv_next_nine_temp"
+                            style="@style/TextViewStyle"
+                            android:textColor="@color/weather_color" />
+
+                        <TextView
+                            android:id="@+id/aw_tv_next_twelve_temp"
+                            style="@style/TextViewStyle"
+                            android:textColor="@color/weather_color" />
+
+                        <TextView
+                            android:id="@+id/aw_tv_next_fifteen_temp"
+                            style="@style/TextViewStyle"
+                            android:textColor="@color/weather_color" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:background="@color/light_grey" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center">
+
+                        <TextView
+                            style="@style/TextViewStyle"
+                            android:layout_weight="3"
+                            android:gravity="left"
+                            android:paddingLeft="16dp"
+                            android:text="@string/today"
+                            android:textColor="@color/weather_color" />
+
+                        <ImageView
+                            android:id="@+id/aw_iv_today_weather"
+                            style="@style/ViewStyle"
+                            android:layout_height="28dp"
+                            android:layout_weight="4"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/d999" />
+
+                        <TextView
+                            android:id="@+id/aw_tv_today_temp_max"
+                            style="@style/TextViewStyle"
+                            android:layout_weight="4"
+                            android:text="@string/test_now_temp"
+                            android:textColor="@color/weather_color" />
+
+                        <TextView
+                            android:id="@+id/aw_tv_today_temp_min"
+                            style="@style/TextViewStyle"
+                            android:layout_weight="4"
+                            android:text="@string/test_now_temp"
+                            android:textColor="@color/weather_color" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:background="@color/light_grey" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/aw_tv_tommorrow"
+                            style="@style/TextViewStyle"
+                            android:layout_weight="3"
+                            android:gravity="left"
+                            android:paddingLeft="16dp"
+                            android:textColor="@color/weather_color" />
+
+                        <ImageView
+                            android:id="@+id/aw_iv_tommorrow_weather"
+                            style="@style/ViewStyle"
+                            android:layout_height="28dp"
+                            android:layout_weight="4"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/d999" />
+
+                        <TextView
+                            android:id="@+id/aw_tv_tommorrow_temp_max"
+                            style="@style/TextViewStyle"
+                            android:layout_weight="4"
+                            android:textColor="@color/weather_color" />
+
+                        <TextView
+                            android:id="@+id/aw_tv_tommorrow_temp_min"
+                            style="@style/TextViewStyle"
+                            android:layout_weight="4"
+                            android:textColor="@color/weather_color" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:background="@color/light_grey" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/aw_tv_third_day"
+                            style="@style/TextViewStyle"
+                            android:layout_weight="3"
+                            android:gravity="left"
+                            android:paddingLeft="16dp"
+                            android:textColor="@color/weather_color" />
+
+                        <ImageView
+                            android:id="@+id/aw_iv_third_day_weather"
+                            style="@style/ViewStyle"
+                            android:layout_height="28dp"
+                            android:layout_weight="4"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/d999" />
+
+                        <TextView
+                            android:id="@+id/aw_tv_third_day_temp_max"
+                            style="@style/TextViewStyle"
+                            android:layout_weight="4"
+                            android:textColor="@color/weather_color" />
+
+                        <TextView
+                            android:id="@+id/aw_tv_third_day_temp_min"
+                            style="@style/TextViewStyle"
+                            android:layout_weight="4"
+                            android:textColor="@color/weather_color" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:background="@color/light_grey" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/aw_tv_fourth_day"
+                            style="@style/TextViewStyle"
+                            android:layout_weight="3"
+                            android:gravity="left"
+                            android:paddingLeft="16dp"
+                            android:textColor="@color/weather_color" />
+
+                        <ImageView
+                            android:id="@+id/aw_iv_fourth_day_weather"
+                            style="@style/ViewStyle"
+                            android:layout_height="28dp"
+                            android:layout_weight="4"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/d999" />
+
+                        <TextView
+                            android:id="@+id/aw_tv_fourth_day_temp_max"
+                            style="@style/TextViewStyle"
+                            android:layout_weight="4"
+                            android:textColor="@color/weather_color" />
+
+                        <TextView
+                            android:id="@+id/aw_tv_fourth_day_temp_min"
+                            style="@style/TextViewStyle"
+                            android:layout_weight="4"
+                            android:textColor="@color/weather_color" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/wireframe_dark"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="4dp"
+                        android:text="@string/information"
+                        android:textColor="@color/title_color" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:background="@color/light_grey" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginTop="8dp">
+
+                        <TextView
+                            style="@style/TextViewStyle"
+                            android:gravity="left"
+                            android:paddingLeft="16dp"
+                            android:text="@string/felt_air_temp"
+                            android:textColor="@color/weather_color" />
+
+                        <TextView
+                            android:id="@+id/aw_tv_felt_air_temp"
+                            style="@style/TextViewStyle"
+                            android:gravity="left"
+                            android:paddingLeft="16dp"
+                            android:textColor="@color/weather_color" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:background="@color/light_grey" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginTop="8dp">
+
+                        <TextView
+                            style="@style/TextViewStyle"
+                            android:gravity="left"
+                            android:paddingLeft="16dp"
+                            android:text="@string/humidity"
+                            android:textColor="@color/weather_color" />
+
+                        <TextView
+                            android:id="@+id/aw_tv_humidity"
+                            style="@style/TextViewStyle"
+                            android:textColor="@color/weather_color"
+                            android:gravity="left"
+                            android:paddingLeft="16dp" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:background="@color/light_grey" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginTop="8dp">
+
+                        <TextView
+                            style="@style/TextViewStyle"
+                            android:gravity="left"
+                            android:paddingLeft="16dp"
+                            android:text="@string/wind"
+                            android:textColor="@color/weather_color" />
+
+                        <TextView
+                            android:id="@+id/aw_tv_wind"
+                            style="@style/TextViewStyle"
+                            android:gravity="left"
+                            android:paddingLeft="16dp"
+                            android:textColor="@color/weather_color" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:background="@color/light_grey" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginTop="8dp">
+
+                        <TextView
+                            style="@style/TextViewStyle"
+                            android:gravity="left"
+                            android:paddingLeft="16dp"
+                            android:text="@string/uv_index"
+                            android:textColor="@color/weather_color" />
+
+                        <TextView
+                            android:id="@+id/aw_tv_uv_index"
+                            style="@style/TextViewStyle"
+                            android:layout_marginLeft="16dp"
+                            android:gravity="left"
+                            android:textColor="@color/weather_color" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:background="@color/light_grey" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginTop="8dp">
+
+                        <TextView
+                            style="@style/TextViewStyle"
+                            android:gravity="left"
+                            android:paddingLeft="16dp"
+                            android:text="@string/dressing_index"
+                            android:textColor="@color/weather_color" />
+
+                        <TextView
+                            android:id="@+id/aw_tv_dressing_index"
+                            style="@style/TextViewStyle"
+                            android:gravity="left"
+                            android:paddingLeft="16dp"
+                            android:textColor="@color/weather_color" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </com.yalantis.phoenix.PullToRefreshView>
+
+</RelativeLayout>
