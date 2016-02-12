@@ -2,118 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66c1b7d6-284f-4261-97aa-b4fee1170054" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/gradle/wrapper/gradle-wrapper.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/src/main/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/src/androidTest/java/com/rey/material/ApplicationTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/src/main/java/com/rey/material/drawable/ArrowDrawable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/BaiduLBS_Android.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/src/main/java/com/rey/material/drawable/BlankDrawable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/src/main/java/com/rey/material/app/BottomSheetDialog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/src/main/java/com/rey/material/widget/Button.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/src/main/java/com/rey/material/widget/CheckBox.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/src/main/java/com/rey/material/drawable/CheckBoxDrawable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/src/main/java/com/rey/material/widget/CheckedImageView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/src/main/java/com/rey/material/widget/CheckedTextView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/src/main/java/com/rey/material/widget/CircleCheckedTextView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/src/main/java/com/rey/material/drawable/CircleDrawable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/src/main/java/com/rey/material/drawable/CircularProgressDrawable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/src/main/java/com/rey/material/util/ColorUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/src/main/java/com/rey/material/widget/CompoundButton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/src/main/java/com/rey/material/drawable/ContactChipDrawable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/src/main/java/com/rey/material/text/style/ContactChipSpan.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/src/main/java/com/rey/material/widget/DatePicker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/src/main/java/com/rey/material/app/DatePickerDialog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/src/main/java/com/rey/material/app/Dialog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/src/main/java/com/rey/material/app/DialogFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/src/main/java/com/rey/material/drawable/DividerDrawable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/src/main/java/com/rey/material/widget/EditText.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/src/test/java/com/rey/material/ExampleUnitTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/src/main/java/com/rey/material/widget/FloatingActionButton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/src/main/java/com/rey/material/widget/FrameLayout.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/src/main/java/com/rey/material/widget/ImageButton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/src/main/java/com/rey/material/drawable/LineMorphingDrawable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/src/main/java/com/rey/material/widget/LinearLayout.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/src/main/java/com/rey/material/drawable/LinearProgressDrawable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/src/main/java/com/rey/material/widget/ListPopupWindow.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/src/main/java/com/rey/material/widget/ListView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/MaterialLibary.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/src/main/java/com/rey/material/drawable/NavigationDrawerDrawable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/src/main/java/com/rey/material/drawable/OvalShadowDrawable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/src/main/java/com/rey/material/drawable/PaddingDrawable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/src/main/java/com/rey/material/widget/PopupWindow.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/src/main/java/com/rey/material/widget/ProgressView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PushToRefreshLibary/PushToRefreshLibary.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/src/main/java/com/rey/material/widget/RadioButton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/src/main/java/com/rey/material/drawable/RadioButtonDrawable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/src/main/java/com/rey/material/widget/RelativeLayout.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/src/main/java/com/rey/material/drawable/RevealDrawable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/src/main/java/com/rey/material/drawable/RippleDrawable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/src/main/java/com/rey/material/widget/RippleManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/src/main/java/com/rey/material/app/SimpleDialog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SimpleWeather.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/src/main/java/com/rey/material/widget/Slider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/src/main/java/com/rey/material/widget/SnackBar.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/src/main/java/com/rey/material/widget/Spinner.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/src/main/java/com/rey/material/widget/Switch.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/src/main/java/com/rey/material/widget/TabIndicatorView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/src/main/java/com/rey/material/widget/TabPageIndicator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/src/main/java/com/rey/material/widget/TextView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/src/main/java/com/rey/material/drawable/ThemeDrawable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/src/main/java/com/rey/material/app/ThemeManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/src/main/java/com/rey/material/util/ThemeUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/src/main/java/com/rey/material/widget/TimePicker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/src/main/java/com/rey/material/app/TimePickerDialog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/src/main/java/com/rey/material/app/ToolbarManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/src/main/java/com/rey/material/drawable/ToolbarRippleDrawable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/src/main/java/com/rey/material/util/TypefaceUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/src/main/java/com/rey/material/util/ViewUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/src/main/java/com/rey/material/widget/YearPicker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/activation.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/additionnal.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_23_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/.idea/libraries/appcompat_v7_23_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/src/main/res/values/attrs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/cardview_v7_23_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/.idea/libraries/cardview_v7_23_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/design_23_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/gradle/wrapper/gradle-wrapper.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/gradle.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/.idea/gradle.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/gradlew.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/gradlew" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/.idea/libraries/haha_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/jsoup_1_8_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/.idea/libraries/leakcanary_analyzer_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/.idea/libraries/leakcanary_android_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/.idea/libraries/leakcanary_watcher_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/library_1_1_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/mail.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/material.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/src/main/res/xml/nav_states.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/.idea/libraries/picasso_2_5_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/proguard-rules.pro" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_23_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/.idea/libraries/recyclerview_v7_23_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/.idea/runConfigurations.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/src/main/res/values/styles.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_annotations_23_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/.idea/libraries/support_annotations_23_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_23_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/.idea/libraries/support_v4_23_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/swipeback_1_0_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaterialLibary/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SimpleWeather.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -126,7 +15,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
-    <option name="PATCH_PATH" value="" />
+    <option name="PATCH_PATH" value="C:\Users\gl\AndroidStudioProjects\SimpleWeather" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="ExternalProjectsManager">
